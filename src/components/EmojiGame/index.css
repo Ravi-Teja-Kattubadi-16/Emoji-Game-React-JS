@@ -1,0 +1,59 @@
+/* Write your code here. */
+.app-container {
+  background-color: #9796f0;
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .app-container {
+    background-color: #9796f0;
+    min-height: 100vh;
+  }
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 88vh;
+  /* border: 2px solid black; */
+}
+@media (min-width: 768px) {
+  .emoji-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 105vh;
+  }
+}
+
+.unordered-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  /* min-height: 100vh; */
+}
+@media (min-width: 768px) {
+  .unordered-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
